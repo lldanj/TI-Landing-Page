@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +50,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Todoist Insights brand colors
+        "cta-orange": "hsl(var(--cta-orange))",
+        "success-green": "hsl(var(--success-green))",
+        "warning-amber": "hsl(var(--warning-amber))",
+        "medium-gray": "hsl(var(--medium-gray))",
+        "light-gray": "hsl(var(--light-gray))",
+        "border-gray": "hsl(var(--border-gray))",
+        "dark-text": "hsl(var(--dark-text))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
