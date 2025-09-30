@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Check, Target, Zap, TrendingUp, Search, Flame, HelpCircle, BarChart3, Users, ShieldCheck, Clock, ArrowRight } from "lucide-react";
 import logo from "@/assets/logo.svg";
-import dashboardScreenshot from "@/assets/dashboard-screenshot.png";
 
 const Index = () => {
   return (
@@ -74,12 +73,27 @@ const Index = () => {
 
             {/* Right Column - Visual */}
             <div className="lg:col-span-5">
-              <div className="rounded-xl shadow-[0_20px_40px_rgba(0,0,0,0.1)] overflow-hidden border border-border-gray">
-                <img 
-                  src={dashboardScreenshot} 
-                  alt="Completed Task Insights Dashboard showing task completion analytics, trends, and metrics" 
-                  className="w-full h-auto max-w-[600px] mx-auto"
-                />
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
+                <div className="bg-white rounded-lg p-6 space-y-4">
+                  <div className="flex items-center gap-3 text-dark-text font-semibold">
+                    <BarChart3 className="w-5 h-5 text-primary" />
+                    Productivity Dashboard
+                  </div>
+                  <div className="space-y-3">
+                    <div className="bg-light-gray rounded-lg p-3">
+                      <div className="text-sm font-medium text-dark-text mb-1">Weekly Task Completion</div>
+                      <div className="bg-primary h-2 rounded-full w-3/4"></div>
+                    </div>
+                    <div className="bg-light-gray rounded-lg p-3">
+                      <div className="text-sm font-medium text-dark-text mb-1">Project Velocity</div>
+                      <div className="bg-success-green h-2 rounded-full w-5/6"></div>
+                    </div>
+                    <div className="bg-light-gray rounded-lg p-3">
+                      <div className="text-sm font-medium text-dark-text mb-1">Focus Time Trends</div>
+                      <div className="bg-warning-amber h-2 rounded-full w-2/3"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
