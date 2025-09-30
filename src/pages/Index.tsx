@@ -74,11 +74,11 @@ const Index = () => {
 
             {/* Right Column - Visual */}
             <div className="lg:col-span-5">
-              <div className="rounded-xl shadow-[0_20px_40px_rgba(0,0,0,0.1)] overflow-hidden">
+              <div className="rounded-xl shadow-[0_20px_40px_rgba(0,0,0,0.1)] overflow-hidden border border-border-gray">
                 <img 
                   src={dashboardScreenshot} 
                   alt="Completed Task Insights Dashboard showing task completion analytics, trends, and metrics" 
-                  className="w-full h-auto"
+                  className="w-full h-auto max-w-[600px] mx-auto"
                 />
               </div>
             </div>
