@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Check, Target, Zap, TrendingUp, Search, Flame, HelpCircle, BarChart3, Users, ShieldCheck, Clock, ArrowRight } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 const Index = () => {
   return (
@@ -8,7 +9,10 @@ const Index = () => {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white border-b border-border-gray h-20 md:h-20">
         <div className="max-w-6xl mx-auto px-6 md:px-6 h-full flex items-center justify-between">
-          <div className="text-xl font-semibold text-dark-text">Insights for Todoist</div>
+          <div className="flex items-center gap-3">
+            <img src={logo} alt="Insights for Todoist" className="h-10 w-10" />
+            <div className="text-xl font-semibold text-primary">Insights for Todoist</div>
+          </div>
           <Button variant="ghost" className="text-medium-gray hover:text-primary">
             Login
           </Button>
