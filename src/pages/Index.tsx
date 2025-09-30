@@ -26,7 +26,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-16 items-center min-h-[600px]">
             {/* Left Column - Content */}
             <div className="lg:col-span-7">
-              <h1 className="text-3xl md:text-5xl font-bold text-dark-text leading-tight tracking-tight mb-6">
+              <h1 className="text-3xl md:text-5xl font-archivo-black text-dark-text leading-tight tracking-tight mb-6">
                 Finally See What Makes You Most Productive
               </h1>
               
