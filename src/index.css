@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Todoist Insights Brand Colors */
+    /* Insights for Todoist Brand Colors */
     --primary-blue: 221 91% 65%; /* #3B82F6 */
     --dark-text: 210 33% 16%; /* #1F2937 */
     --light-background: 0 0% 100%; /* #FFFFFF */

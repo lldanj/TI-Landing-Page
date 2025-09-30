@@ -8,7 +8,7 @@ const Index = () => {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white border-b border-border-gray h-20 md:h-20">
         <div className="max-w-6xl mx-auto px-6 md:px-6 h-full flex items-center justify-between">
-          <div className="text-xl font-semibold text-dark-text">Todoist Insights</div>
+          <div className="text-xl font-semibold text-dark-text">Insights for Todoist</div>
           <Button variant="ghost" className="text-medium-gray hover:text-primary">
             Login
           </Button>
@@ -141,7 +141,7 @@ const Index = () => {
               Your Personal Productivity Lab
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Todoist Insights connects to your existing data to automatically surface actionable patterns, trends, and opportunities.
+              Insights for Todoist connects to your existing data to automatically surface actionable patterns, trends, and opportunities.
             </p>
           </div>
 
@@ -352,7 +352,7 @@ const Index = () => {
               Finally, Analytics That Actually Help
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              While other tools show you basic charts, Todoist Insights gives you an actionable intelligence layer that connects directly back to your work.
+              While other tools show you basic charts, Insights for Todoist gives you an actionable intelligence layer that connects directly back to your work.
             </p>
           </div>
 
@@ -362,7 +362,7 @@ const Index = () => {
                 <thead>
                   <tr className="bg-light-gray">
                     <th className="text-left p-4 font-semibold text-dark-text">Feature</th>
-                    <th className="text-left p-4 font-semibold text-success-green">Todoist Insights</th>
+                    <th className="text-left p-4 font-semibold text-success-green">Insights for Todoist</th>
                     <th className="text-left p-4 font-semibold text-medium-gray">Standard Analytics</th>
                   </tr>
                 </thead>
@@ -412,7 +412,7 @@ const Index = () => {
                 We already have analytics in our productivity tools
               </AccordionTrigger>
               <AccordionContent className="text-base text-gray-600 pb-6">
-                Most tools show what happened, but Todoist Insights reveals why it matters. We're the only solution that connects productivity patterns across your entire workflow to identify optimization opportunities.
+                Most tools show what happened, but Insights for Todoist reveals why it matters. We're the only solution that connects productivity patterns across your entire workflow to identify optimization opportunities.
               </AccordionContent>
             </AccordionItem>
 
@@ -530,7 +530,7 @@ const Index = () => {
               </div>
             </div>
             <p className="text-xs text-medium-gray">
-              Copyright © 2025 Todoist Insights | Privacy Policy | Terms of Service
+              Copyright © 2025 Insights for Todoist | Privacy Policy | Terms of Service
             </p>
           </div>
         </div>
