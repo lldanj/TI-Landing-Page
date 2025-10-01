@@ -89,7 +89,7 @@ const Index = () => {
           
           <div className="text-lg md:text-xl text-gray-600 leading-relaxed space-y-6 mb-12">
             <p>
-              You complete dozens of tasks weekly. But which workflows actually work? Which projects drain your energy? When are you most productive?
+              You complete dozens of tasks weekly. But which workflows actually work? Which projects drain your energy?
             </p>
             <p>
               Without data, you're guessing. Repeating inefficient patterns. Missing optimization goldmines sitting right in your Todoist history.
@@ -127,62 +127,6 @@ const Index = () => {
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Insights for Todoist connects to your existing data to automatically surface actionable patterns, trends, and opportunities.
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {/* Benefit 1 */}
-            <div className="text-center">
-              <Target className="w-12 h-12 text-primary mx-auto mb-6" />
-              <h3 className="text-xl md:text-2xl font-semibold text-dark-text mb-4">
-                Spot productivity patterns you never noticed
-              </h3>
-              <p className="text-base text-gray-600 leading-relaxed mb-6">
-                Our analytics reveal task completion trends, project bottlenecks, and optimization opportunities. See which workflows accelerate results and which create unnecessary friction.
-              </p>
-              <div className="bg-light-gray rounded-lg p-4 shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
-                <div className="text-sm font-medium text-dark-text mb-2">Personal Analytics</div>
-                <div className="space-y-2">
-                  <div className="bg-white rounded p-2 text-xs">Task completion patterns</div>
-                  <div className="bg-white rounded p-2 text-xs">Workflow bottlenecks</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Benefit 2 */}
-            <div className="text-center">
-              <Users className="w-12 h-12 text-primary mx-auto mb-6" />
-              <h3 className="text-xl md:text-2xl font-semibold text-dark-text mb-4">
-                Optimize team workflows without micromanaging
-              </h3>
-              <p className="text-base text-gray-600 leading-relaxed mb-6">
-                Understand how work flows through your team with collaboration analytics, project velocity insights, and workload distribution data. Make data-driven decisions about resource allocation.
-              </p>
-              <div className="bg-light-gray rounded-lg p-4 shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
-                <div className="text-sm font-medium text-dark-text mb-2">Team Performance</div>
-                <div className="space-y-2">
-                  <div className="bg-white rounded p-2 text-xs">Collaboration insights</div>
-                  <div className="bg-white rounded p-2 text-xs">Project velocity</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Benefit 3 */}
-            <div className="text-center">
-              <TrendingUp className="w-12 h-12 text-primary mx-auto mb-6" />
-              <h3 className="text-xl md:text-2xl font-semibold text-dark-text mb-4">
-                Forecast productivity trends before problems emerge
-              </h3>
-              <p className="text-base text-gray-600 leading-relaxed mb-6">
-                AI-powered forecasting identifies potential bottlenecks, predicts project completion timelines, and suggests proactive optimizations. Stay ahead of productivity challenges.
-              </p>
-              <div className="bg-light-gray rounded-lg p-4 shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
-                <div className="text-sm font-medium text-dark-text mb-2">Predictive Analytics</div>
-                <div className="space-y-2">
-                  <div className="bg-white rounded p-2 text-xs">Trend forecasting</div>
-                  <div className="bg-white rounded p-2 text-xs">Bottleneck prediction</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
