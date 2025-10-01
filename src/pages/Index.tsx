@@ -30,24 +30,24 @@ const Index = () => {
                 Finally See What Makes You Most Productive
               </h1>
               
-              <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-8">
+              <p className="text-xl md:text-2xl font-bold text-gray-600 leading-relaxed mb-8">
                 Stop chasing productivity hacks—get clear insights from your actual Todoist task patterns and workflow data
               </p>
 
-              <div className="space-y-4 mb-10">
-                <div className="flex items-start gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+                <div className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl">
                   <Target className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-base text-gray-600">
                     Discover hidden bottlenecks and workflow wins buried in your Todoist data
                   </p>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl">
                   <Zap className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-base text-gray-600">
                     Get instant insights from years of task history in 60 seconds
                   </p>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl">
                   <ArrowRight className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-base text-gray-600">
                     Zero workflow disruption - works with your current Todoist setup
