@@ -3,6 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Check, Target, Zap, TrendingUp, Search, Flame, HelpCircle, BarChart3, Users, ShieldCheck, Clock, ArrowRight } from "lucide-react";
 import logo from "@/assets/logo.svg";
 import heroScreenshot from "@/assets/hero-screenshot.png";
+import dashboardScreenshot from "@/assets/dashboard-screenshot.png";
 
 const Index = () => {
   return (
@@ -127,6 +128,14 @@ const Index = () => {
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Insights for Todoist connects to your existing data to automatically surface actionable patterns, trends, and opportunities.
             </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto">
+            <img 
+              src={dashboardScreenshot} 
+              alt="Aging Analysis Dashboard showing task age distribution and projects with old tasks" 
+              className="w-full rounded-xl shadow-[0_20px_40px_rgba(0,0,0,0.15)]"
+            />
           </div>
         </div>
       </section>
