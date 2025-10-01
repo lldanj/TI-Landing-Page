@@ -44,7 +44,7 @@ const Index = () => {
                 <div className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl">
                   <Zap className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <p className="text-base text-gray-600">
-                    Get instant insights from years of task history in 60 seconds
+                    Get instant insights from your todoist data in 60 seconds
                   </p>
                 </div>
                 <div className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl">
@@ -64,11 +64,7 @@ const Index = () => {
               </Button>
 
               <p className="text-sm text-medium-gray mt-4">
-                No credit card required • Instant insights from existing tasks • Cancel anytime
-              </p>
-
-              <p className="text-sm text-medium-gray mt-6">
-                Join 2,000+ productivity enthusiasts optimizing their workflows
+                Instant insights from existing tasks • Cancel anytime
               </p>
             </div>
 
