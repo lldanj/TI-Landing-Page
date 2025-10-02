@@ -406,7 +406,7 @@ const Index = () => {
           <Button 
             variant="cta" 
             size="lg" 
-            className="text-xl font-semibold px-10 py-5 h-16 shadow-[0_6px_16px_rgba(234,88,12,0.4)]"
+            className="text-xl font-semibold px-10 py-4 min-h-16 h-auto whitespace-normal leading-tight shadow-[0_6px_16px_rgba(234,88,12,0.4)]"
           >
             Start My Free 14-Day Trial Now
           </Button>
