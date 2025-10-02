@@ -412,11 +412,7 @@ const Index = () => {
           </Button>
 
           <p className="text-sm text-white/80 mt-5">
-            Full access • No credit card required • Cancel anytime
-          </p>
-
-          <p className="text-sm text-warning-amber mt-4">
-            Join 150+ teams who started their trial this week
+            Full access • Cancel anytime
           </p>
         </div>
       </section>
